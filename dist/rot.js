@@ -27,6 +27,7 @@ function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.crea
 
     var _proto = RNG.prototype;
 
+    
     _proto.getSeed = function getSeed() {
       return this._seed;
     };
